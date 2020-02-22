@@ -1,1 +1,28 @@
-// Specific CSS for your home-page
+.mainphoto {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), asset-url("mainphoto.jpg");
+  background-position: center;
+  background-size: cover;
+  color: $white;
+  text-align: center;
+  position: absolute;
+
+  a {
+    text-decoration: none;
+    color: rgba(250, 250, 250, 0.8);
+    font-style: italic;
+    font-size: 2em;
+  }
+
+  a:hover {
+    color: rgba(250, 250, 250, 1);
+  }
+
+  .infos{
+    position: relative;
+    top: 50%;
+  }
+}
+
+
