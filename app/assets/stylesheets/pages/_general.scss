@@ -17,6 +17,9 @@ body {
   .navbar-links {
     width: 60%;
   }
+  .contact-links {
+    flex-direction: column;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -27,6 +30,9 @@ body {
   }
   .navbar-links {
     width: 60%;
+  }
+  .contact-links {
+    flex-direction: column;
   }
 }
 
