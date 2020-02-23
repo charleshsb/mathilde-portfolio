@@ -1,0 +1,30 @@
+.navbar-mathilde {
+  width: 100%;
+  position: fixed;
+  background: $white;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  width: 15%;
+  justify-content: space-evenly;
+
+  a {
+    text-decoration: none;
+    opacity: 0.7;
+    color: $dark;
+  }
+
+  a:hover {
+    opacity: 1;
+  }
+}
