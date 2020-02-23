@@ -3,6 +3,20 @@
   background: $white;
 }
 
+.navbar-title {
+  margin-bottom: 0.5rem;
+  font-family: "Bebas Neue", "Raleway", "Helvetica", "sans-serif";
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2.5rem;
+  color: $dark;
+}
+
+.navbar-title:hover {
+  text-decoration: none;
+  color: $dark;
+}
+
 .navbar-content {
   display: flex;
   justify-content: space-between;
