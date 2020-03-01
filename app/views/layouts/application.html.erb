@@ -16,7 +16,9 @@
       <%= yield %>
     <% else %>
       <%= render 'shared/navbar' %>
-      <%= yield %>
+      <div class="content-wrapper">
+        <%= yield %>
+      </div>
       <%= render 'shared/footer' %>
     <% end %>
 

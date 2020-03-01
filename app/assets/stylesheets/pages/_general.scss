@@ -8,6 +8,10 @@ body {
   // }
 }
 
+.content-wrapper {
+  min-height: 90vh;
+}
+
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .navbar-content {
