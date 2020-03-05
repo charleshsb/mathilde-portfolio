@@ -9,7 +9,35 @@ body {
 }
 
 .content-wrapper {
-  min-height: 90vh;
+  min-height: 80vh;
+}
+
+.carousel-inner {
+  height: 60vh;
+}
+
+.carousel-item {
+height: 70vh;
+}
+
+.carousel-item img {
+max-height: 100%;
+max-width: 100%;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+border-radius: 2px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 // Smallest device

@@ -10,47 +10,72 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 2px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+.ph {
+  background-image: asset-url('ph_header.jpg');
+  height: 600px;
+}
+
 .remy {
-  background-image: asset-url('Remy_header.jpg');
+  background-image: asset-url('remy_header.jpg');
   height: 300px;
 }
 
 .feeka {
-  background-image: asset-url('Feeka_header.jpg');
+  background-image: asset-url('feeka_header.jpg');
   height: 600px;
 }
 
 .holiday {
-  background-image: asset-url('Holiday_header.jpg');
+  background-image: asset-url('h_header2.jpg');
   height: 600px
 }
 
 .jane {
-  background-image: asset-url('Jane_header.jpg');
+  background-image: asset-url('jane_header.jpg');
+  height: 600px;
+}
+
+.jm {
+  background-image: asset-url('jm_header.jpg');
   height: 600px;
 }
 
 .luco {
-  background-image: asset-url('Le_luco_header.jpg');
+  background-image: asset-url('luco_header.jpg');
+  height: 600px;
+}
+
+.lv {
+  background-image: asset-url('lv_header.jpg');
+  height: 600px;
+}
+
+.mathieu {
+  background-image: asset-url('mathieu_header.jpg');
   height: 600px;
 }
 
 .morgan {
-  background-image: asset-url('Morgan_lookbook_header.jpg');
+  background-image: asset-url('morgan_header.jpg');
   height: 600px;
 }
 
 .suncoo {
-  background-image: asset-url('Suncoo_header.jpg');
+  background-image: asset-url('suncoo_header.jpg');
+  height: 300px
+}
+
+.sw {
+  background-image: asset-url('sw_header.jpg');
   height: 300px
 }
 
 .vakko {
-  background-image: asset-url('Vakko_header.jpg');
+  background-image: asset-url('vakko_header.jpg');
   height: 300px;
 }
 
@@ -77,9 +102,6 @@
   }
 }
 
-a:hover {
-  text-decoration: none;
-}
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
