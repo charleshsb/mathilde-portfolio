@@ -5,9 +5,10 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-bottom: 10%;
 }
 
 .card-projects {
@@ -21,66 +22,92 @@
 .ph {
   background-image: asset-url('ph_header.jpg');
   height: 600px;
+  position: relative;
+  top: 5%;
 }
 
 .remy {
   background-image: asset-url('remy_header.jpg');
   height: 300px;
+  position: relative;
+  top: 40%;
 }
 
 .feeka {
   background-image: asset-url('feeka_header.jpg');
   height: 600px;
+  position: relative;
+  top: 0%;
 }
 
 .holiday {
   background-image: asset-url('h_header2.jpg');
-  height: 600px
+  height: 600px;
+  position: relative;
+  top: 10%;
 }
 
 .jane {
   background-image: asset-url('jane_header.jpg');
   height: 600px;
+  position: relative;
+  top: 0%;
 }
 
 .jm {
   background-image: asset-url('jm_header.jpg');
   height: 600px;
+  position: relative;
+  top: 15%;
 }
 
 .luco {
   background-image: asset-url('luco_header.jpg');
   height: 600px;
+  position: relative;
+  top: 10%;
 }
 
 .lv {
   background-image: asset-url('lv_header.jpg');
   height: 600px;
+  position: relative;
+  top: 0%;
 }
 
 .mathieu {
   background-image: asset-url('mathieu_header.jpg');
   height: 600px;
+  position: relative;
+  top: 20%;
 }
 
 .morgan {
   background-image: asset-url('morgan_header.jpg');
   height: 600px;
+  position: relative;
+  top: 10%;
 }
 
 .suncoo {
   background-image: asset-url('suncoo_header.jpg');
-  height: 300px
+  height: 300px;
+  position: relative;
+  top: 25%;
 }
 
 .sw {
   background-image: asset-url('sw_header.jpg');
-  height: 300px
+  height: 300px;
+  position: relative;
+  top: 30%;
 }
 
 .vakko {
   background-image: asset-url('vakko_header.jpg');
   height: 300px;
+  position: relative;
+  top: 20%;
 }
 
 .text {
